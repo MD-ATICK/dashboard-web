@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600&family=Signika:wght@500&family=Varela+Round&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.slider{
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    color: rgb(255, 0, 0);
+    background-color: rgb(5, 220, 162);
+}
+
+
+
+.itemsec .slider .sidebarbrand {
+    display: flex;
+    padding-top: 2rem;
+    color: rgb(38, 38, 38);
+}
+.itemsec .slider .sidebarbrand i{
+  margin-right: 1rem;
+  font-size: 32px;
+  margin-left: 2rem;
+
+}
+
+
+.itemsec .slider .sidebarbrand h1{
+    letter-spacing: 0.7px;
+    padding-top: 0.4rem;
+}
+
+
+.seondflexitem{
+    margin-left: 355px;
+    color: rgb(38, 38, 38);
+}
+
+.sidebarmenu{
+    margin-top: 5rem;
+    margin-left: 1.8rem;
+    color: rgb(38, 38, 38);
+}
+
+.sidebarmenu li{
+    color: rgb(38, 38, 38);
+    padding-bottom: 2.3rem;
+    
+}
+
+.sidebarmenu li i{
+    padding-right: 1rem;
+}
+
+.sidebarmenu li i,span{
+    color: rgb(38, 38, 38);
+    letter-spacing: 0.8px;
+}
+
+/* start 2nd information about code */
+
+.seondflexitem .mainheader .divsec{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.mainheader{
+    padding: 0.8rem 0 ;
+   background-color: rgb(255, 255, 255);
+   box-shadow: rgba(97, 96, 96, 0.412) 0px 7px 4px -3px, rgba(117, 116, 116, 0.544) 0px 3px 5px -2px;
+}
+
+
+.seondflexitem .mainheader .divsec .leftside{
+    margin-left: 2rem;
+    display: flex;
+    margin-right: 0.5rem;
+    letter-spacing: 0.8px;
+}
+
+
+.seondflexitem .mainheader .divsec .rightside{
+    margin-right: 2rem;
+    display: flex;
+}
+
+
+.seondflexitem .mainheader .divsec .rightside img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+
+.seondflexitem .mainheader .divsec .middleside{
+    display: flex;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(246, 246, 246);
+}
+
+.divsec .middleside input{
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+    background-color: transparent;
+    
+}
+
+.divsec .middleside i{
+    margin-left: 1.2rem;
+}
+.leftside i{
+    margin-right: 1rem;
+    padding-top: 0.6rem;
+}
+
+.leftside h1{
+    font-size: 20px;
+    padding-top: 0.5rem;
+
+}
+
+.comertercountdiv .costemrlelatet {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    margin-bottom: 0;
+}
+
+
+.comertercountdiv .costemrlelatet .one{
+    display: flex;
+    background: linear-gradient(62deg, rgb(21, 69, 147) 40%, rgba(15,123,251,1) 100%);
+    color: white;
+    border-radius: 7px;
+    padding: 1.5rem 2.5rem;
+    
+}
+
+
+.comertercountdiv .costemrlelatet .one i{
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    font-size: 35px;
+    color: rgb(0, 255, 225);
+}
+
+
+.comertercountdiv .costemrlelatet .one h3{
+    font-size: 14px;
+    padding-top: 1rem;
+    color: rgb(228, 228, 228);
+}
+
+body{
+    background-color: rgb(222, 222, 222);
+}
+
+
+.comertercountdiv .costemrlelatet .one:nth-child(4){
+    background: linear-gradient(62deg, rgb(167, 32, 146) 20%, rgba(255,0,168,1) 80%);
+}
+
+.recentflex{
+    margin-left: 370px;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 66% auto;
+    grid-column-gap: 1rem;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+ .Projects
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(55, 55, 55);
+    color: white;
+   align-items: center;
+    border-radius: 5px;
+}
+
+
+.Projects button{
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    background: linear-gradient(62deg, rgb(21, 69, 147) 40%, rgba(15,123,251,1) 100%);
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+/* 
+.recentflex .ditails table thead .atickvai tr{
+    margin: 0.1rem auto;
+    background-color: rgb(241, 241, 241);
+    padding: 1rem 0;
+    width: 200px;
+    border-radius: 5px; */
+
+    
+
+.vai .atickvai{
+  height: 3rem;
+  background-color: rgb(79, 79, 79);
+  color: white;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  
+}
+
+.atickvai td
+{
+    padding-left: 0.5rem;
+}
+
+
+.tbodyside td{
+   padding: 21.8px;
+   text-transform: capitalize;
+   font-size: 15px;
+}
+
+
+.ativkboss
+{
+    background-color: white;
+    margin-top: 0.4rem;
+}
+
+
+.tbodyside td .stutus{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+
+.stutus.atick
+{
+    background-color: rgb(0, 233, 35);
+}
+
+.stutus.frist
+{
+    background-color: red;
+}
+
+
+.stutus.thrid
+{
+    background-color: rgb(0, 34, 255);
+}
+
+.stutus.four
+{
+    background-color: rgb(0, 192, 128);
+}
+
+/* new vabe ogggojattra */
+
+.ativkboss{
+    background-color: rgb(67, 67, 67);
+    border-radius: 4px;
+    margin-right: 0.3rem;
+    padding-top: 0.7rem;
+    color: white;
+   
+
+}
+.ativkboss .cardbodu
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ativkboss .iconflex{
+    display: flex;
+    color: rgb(0, 255, 238);
+    padding-top: 0.4rem;
+    margin-right: 1rem;
+}
+
+
+.ativkboss .iconflex i{
+    padding-right: 0.3rem;
+  
+}
+.ativkboss .flexdiv
+{
+    display: flex;
+}
+
+.ativkboss .cardbodu img{
+    border-radius: 50%;
+    margin: 12.4px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.ativkboss .cardbodu .textnoral h5{
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-top: 0.7rem;
+    font-weight: 500;
+    color: rgb(209, 207, 207);
+}
+
+
+
+.ativkboss .cardbodu .textnoral h4
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: .7rem;
+}
+
+             
+#nav-toggle
+{
+   display: none;
+}
+                
+#nav-toggle:checked + .slider {
+    width: 1000px;
+}
